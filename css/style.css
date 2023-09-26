@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+}
+
+.flexcontainer1 {
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    height: 2em;
+    background-color: orange;
+    margin: 1em auto;
+    align-items: center;
+    
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.flexcontainer2 {
+    display: flex;
+    background-color: blue;
+    width: 100vw;
+    height: 50vh;
+    margin-bottom: 0.3em;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    width: 40vw;
+    height: 2em;
+    padding: 0.3em;
+    text-align: center;
+    
+}
+
+header {
+display: flex; 
+flex-direction: column;  
+background-color: rgb(181, 210, 236);
+}
+
+
+.pink {
+    background-color:palevioletred;
+    height: 35vh;
+    width: 50vw;
+    
+}
+
+.celeste {
+    background-color: aqua;
+    width: 35vw;
+    height: 35vh;;
+}
+
+.bianca {
+    display: flex;
+    background-color: white;
+    width: 100vw;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.grigia {
+
+    display: flex;
+    background-color: rgb(152, 152, 152);
+    width: 100vw;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.rosa {
+
+    background-color: rgb(255, 166, 243);
+    width: 15vw;
+    height: 35vh;;
+
+}
+
+.grigia2 {
+
+    display: flex;
+    background-color: rgb(152, 152, 152);
+    width: 100vw;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.verde {
+    background-color: rgb(23, 196, 23);
+    width: 70vw;
+    height: 70vh;;
+}
+
+.dashed {
+    border:dashed 2px black ; 
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+
+    display: flex; 
+flex-direction: column;  
+background-color: rgb(108, 110, 112);
+
+}
+
+.altafooter {
+    display: flex;
+    width: 100vw;
+    height: 50vh;
+    margin-bottom: 0.3em;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(24, 25, 26);
+}
+
+.bassafooter {
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    margin-bottom: 0.3em;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: rgb(24, 25, 26);
+}
+
+.magenta {
+    background-color: rgb(255, 166, 243);
+    width: 13vw;
+    height: 35vh;;
+}
+
+.azule {
+    background-color: rgb(67, 236, 255);
+    width: 10vw;
+    height: 35vh;
+    border: dashed 2px white;
+}
+
+.azulecontainer {
+    display:flex
+}
+
+.flexcontainer3 {
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    height: 3em;
+    background-color: rgb(0, 132, 255);
+    
+    align-items: center; 
+}
+
+.tasto {
+    border: dashed 1px black;
+    background-color: plum;
+    padding: 0 1em;
+}
