@@ -291,6 +291,7 @@ span.buttons.download {
     display: flex;
     justify-content: space-between;
     width: 80%;
+    filter: invert(1);
     
     
     
