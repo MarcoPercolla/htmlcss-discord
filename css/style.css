@@ -344,7 +344,7 @@ object {
 .button2:hover {
     color:black;
     background-color: white;
-    border: red solid 1px
+    border: red solid 1px;
     -webkit-box-shadow: 5px 5px 10px 0px #000000;
     -moz-box-shadow: 5px 5px 10px 0px #000000;
     -o-box-shadow: 5px 5px 10px 0px #000000;
