@@ -291,7 +291,7 @@ span.buttons.download {
     display: flex;
     justify-content: space-between;
     width: 80%;
-    background-color: beige;
+    
     
     
 }
@@ -327,3 +327,12 @@ hr {
     transform: rotate(180deg);
 }
 
+object {
+    background-color: rgb(243, 243, 243);
+    
+}
+
+.icon{
+    width: 10px;
+    height: 10px;
+}
