@@ -322,3 +322,8 @@ hr {
     margin: auto;
     border-color:rgb(170, 130, 238);
 }
+
+.rotate {
+    transform: rotate(180deg);
+}
+
