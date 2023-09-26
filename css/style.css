@@ -89,7 +89,7 @@ background-color: #295ee8
 .grigia {
 
     display: flex;
-    background-color: rgb(152, 152, 152);
+    background-color: rgb(243, 242, 242);
     width: 100vw;
     min-height: 400px;
     align-items: center;
@@ -102,7 +102,7 @@ background-color: #295ee8
 .grigia2 {
 
     display: flex;
-    background-color: rgb(152, 152, 152);
+    background-color: rgb(243, 243, 243);
     width: 100vw;
     height: 100vh;
     min-height: 990px;
@@ -138,41 +138,49 @@ footer {
 
     display: flex; 
 flex-direction: column;  
-background-color: rgb(108, 110, 112);
+background-color: rgb(24, 25, 26);
 
 }
 
 .altafooter {
     display: flex;
     width: 100vw;
-    height: 50vh;
+    min-height: 100%;
     margin-bottom: 0.3em;
     justify-content: center;
-    align-items: center;
-    background-color: rgb(24, 25, 26);
+    align-items: flex-start;
+    
+    padding: 40px;
 }
 
 .bassafooter {
     display: flex;
     width: 100vw;
-    height: 10vh;
-    margin-bottom: 0.3em;
+    min-height: 10vh;
+    margin: 0.3em 0;
     justify-content: center;
     align-items: flex-end;
-    background-color: rgb(24, 25, 26);
+    
+    
 }
 
 .magenta {
-    background-color: rgb(255, 166, 243);
+    
     width: 13vw;
-    height: 35vh;;
+    min-height: 35vh;
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    
 }
 
 .azule {
-    background-color: rgb(67, 236, 255);
+    display: flex;
     width: 10vw;
-    height: 35vh;
-    border: dashed 2px white;
+    min-height: 35vh;
+    flex-direction: column;
+    
+    
 }
 
 .azulecontainer {
@@ -183,16 +191,15 @@ background-color: rgb(108, 110, 112);
     display: flex;
     justify-content: space-between;
     width: 80vw;
-    height: 3em;
-    background-color: rgb(0, 132, 255);
-    
+    height: 3em; 
     align-items: center; 
+    margin-bottom: 30px;
 }
 
 .tasto {
-    border: dashed 1px black;
+    border-radius: 30px;
     background-color: plum;
-    padding: 0 1em;
+    padding: 0.5em 1em;
 }
 
 .login {
@@ -268,7 +275,7 @@ h2 {
 }
 
 .download {
-    background-color:azure ;
+    background-color:rgb(170, 130, 238);
     display:flex;
     justify-content: center;
     
@@ -276,7 +283,42 @@ h2 {
 
 span.buttons.download {
     max-width: 15vw ;
-    min-width: 200px;
+    
     
 }
 
+.social {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    background-color: beige;
+    
+    
+}
+
+.language {
+    margin: 1em 0;
+    color:white
+}
+
+.magenta > h2 {
+    color:rgb(170, 130, 238)
+}
+
+.azule > p {
+    margin: 10px 0;
+    color:white;
+}
+
+h4 {
+    font-size: 20px;
+    margin: 10px 0;
+    color:rgb(170, 130, 238)
+
+}
+
+hr {
+    width: 80%;
+    margin: auto;
+    border-color:rgb(170, 130, 238);
+}
